@@ -15,7 +15,7 @@ MODEL_PATH = os.path.join("webApp", "models", "resume_classifier.pkl")
 """
 Here I'm training a basic classifier that tries to guess what job category a resume belongs to.
 I kept it simple using TF-IDF and Naive Bayes because this is just our starting point
-This helps us get a baseline and make sure our resume data actually contains enough signal to predict categories like IT, HR, or Finance.
+This helps us get a baseline and make sure our resume data actually contains enough signal to predict categories
 """
 def train_resume_classifier():
     df = pd.read_csv(RESUME_PATH)
