@@ -13,11 +13,11 @@ Our goal: help users discover suitable jobs based purely on the text of their re
 
 ### 1. Resume Classification
 
-We train models to classify resumes into one of ~25 career categories (e.g. Engineer, Finance, Teacher, etc.) using:
+We trained different models to classify resumes into one of ~25 career categories (e.g. Engineer, Finance, Teacher, etc.) using:
 
 - TF-IDF vectorization
 - Logistic Regression
-- SVM
+- SVM (Selected as final model since it performs the best)
 - Naive Bayes
 - Hyperparameter tuning via GridSearchCV
 
@@ -32,7 +32,7 @@ We compute similarities between resumes and job descriptions to recommend the To
 - TF-IDF
 - CountVectorizer
 - spaCy embeddings
-- BERT embeddings (optional)
+- BERT embeddings
 
 **Hyperparameter tuning:**
 
