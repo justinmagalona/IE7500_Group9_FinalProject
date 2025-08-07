@@ -31,7 +31,6 @@ We compute similarities between resumes and job descriptions to recommend the To
 
 - TF-IDF
 - CountVectorizer
-- spaCy embeddings
 - BERT embeddings
 
 **Hyperparameter tuning:**
